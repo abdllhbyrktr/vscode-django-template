@@ -1,9 +1,9 @@
 {
-    "name": "django-html",
-    "scopeName": "text.html.django",
+    "name": "django-tmpl",
+    "scopeName": "text.tmpl.django",
     "comment": "Django Template Engine",
     "fileTypes": [
-        "html"
+        "tmpl"
     ],
     "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
     "foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",

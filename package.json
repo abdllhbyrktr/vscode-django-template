@@ -1,5 +1,5 @@
 {
-    "name": "django-html",
+    "name": "django-tmpl",
     "version": "1.2.0",
     "publisher": "bibhasdn",
     "author": {
@@ -27,26 +27,26 @@
     "contributes": {
         "languages": [
             {
-                "id": "html",
+                "id": "tmpl",
                 "aliases": [
                     "Django Template",
                     "HTML"
                 ],
-                "extensions": [".html", ".htm"],
-                "configuration": "./django-html.configuration.json"
+                "extensions": [".tmpl", ".tmp"],
+                "configuration": "./django-tmpl.configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "html",
-                "scopeName": "text.html.django",
-                "path": "./syntaxes/django-html.json"
+                "language": "tmpl",
+                "scopeName": "text.tmpl.django",
+                "path": "./syntaxes/django-tmpl.json"
             }
         ],
         "snippets": [
             {
-                "language": "html",
-                "scopeName": "text.html.django",
+                "language": "tmpl",
+                "scopeName": "text.tmpl.django",
                 "path": "./snippets/django-snippets.json"
             }
         ]
